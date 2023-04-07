@@ -77,9 +77,8 @@
     background-color: white;
     border-radius: 1.5rem;
     overflow: hidden;
-    max-width: 450px;
-    height: auto;
-    
+    max-width: 370px;
+    height: 560px;
   }
   .summary{
     padding: 1.75rem;
@@ -87,9 +86,8 @@
   }
   .plan{
     background-color: var(--Very-pale-blue);
-    /* overflow-wrap: inherit; */
     border-radius: 12px;
-    padding: 25px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     
@@ -106,9 +104,7 @@
     font-weight: var(--fw-b);
     text-align: center;
     color: var(--Dark-blue);
-    margin-bottom: 20px;
-    font-size: 32px;
-
+    margin-bottom: 10px;
   }
   p{
     
@@ -119,14 +115,13 @@
   .plan-name{
     
     font-weight: var(--fw-b);
-    font-size: 16px;
+    font-size: var(--fs-s);
     color: var(--Dark-blue);
   }
   .description{
     font-weight: var(--fw-m);
-    margin-bottom: 25px;
+    margin-bottom: 17px;
     padding:0px 20px;
-    font-size:18px;
   }
   .change{
     color: var(--Dark-blue);
@@ -146,7 +141,7 @@
     align-items: center;
     border-radius: 0.5rem;
     padding: 15px 0px;
-    margin: 30px 0px;
+    margin: 20px 0px;
     transition: color .3s ease;
   }
   .b1:hover{
